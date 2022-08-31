@@ -39,6 +39,10 @@
                     Days20PerMonth month = new Days20PerMonth();
                     month.Month();
                     break;
+                case 6:
+                    Hours100 hours100 = new Hours100();
+                    hours100.Hundred();
+                    break;
             }
         }
     }
