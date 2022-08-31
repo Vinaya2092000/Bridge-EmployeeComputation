@@ -43,6 +43,10 @@
                     Hours100 hours100 = new Hours100();
                     hours100.Hundred();
                     break;
+                case 7:
+                    Class1 class1 = new Class1();
+                    class1.Class();
+                    break;
             }
         }
     }
