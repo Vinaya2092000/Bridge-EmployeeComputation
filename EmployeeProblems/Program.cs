@@ -35,6 +35,10 @@
                     EmpSwitch empSwitch = new EmpSwitch();
                     empSwitch.Switch();
                     break;
+                case 5:
+                    Days20PerMonth month = new Days20PerMonth();
+                    month.Month();
+                    break;
             }
         }
     }
