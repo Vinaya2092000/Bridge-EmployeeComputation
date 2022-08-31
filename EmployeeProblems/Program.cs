@@ -31,6 +31,10 @@
                     EmpPartTime empPartTime = new EmpPartTime();
                     empPartTime.EmpWage();
                     break;
+                case 4:
+                    EmpSwitch empSwitch = new EmpSwitch();
+                    empSwitch.Switch();
+                    break;
             }
         }
     }
