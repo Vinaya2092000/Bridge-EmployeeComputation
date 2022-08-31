@@ -27,6 +27,10 @@
                     EmpFullTime empFullTime = new EmpFullTime();
                     empFullTime.EmpWage();
                     break;
+                case 3:
+                    EmpPartTime empPartTime = new EmpPartTime();
+                    empPartTime.EmpWage();
+                    break;
             }
         }
     }
