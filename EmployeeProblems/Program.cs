@@ -23,6 +23,10 @@
                     EmpPresent empPresent = new EmpPresent();
                     empPresent.Present();
                     break;
+                case 2:
+                    EmpFullTime empFullTime = new EmpFullTime();
+                    empFullTime.EmpWage();
+                    break;
             }
         }
     }
